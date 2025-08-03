@@ -1,3 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿/*
+ * Learning Basics of C#
+ * 
+ */
 
 Console.WriteLine("This is commitment!"); 
+Console.ReadLine();
+
