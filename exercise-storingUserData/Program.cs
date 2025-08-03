@@ -11,4 +11,9 @@ float height = 6.2F;
 Console.WriteLine(name);
 Console.WriteLine(phoneNum);
 Console.WriteLine(height);
+Console.WriteLine();
 
+for (int i = 0; i < 4; ++i)
+{
+    Console.WriteLine(i);
+}
