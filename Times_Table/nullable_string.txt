@@ -1,0 +1,21 @@
+Compiler Warning: Converting null literal or possible null value into non-nullable type
+
+Starting in C# 8.0, nullable reference types are enabled in many projects. Meaning: 
+string = non-nullable string
+string? = nullable string
+
+Example: string input = Console.ReadLine();
+// Warning: Console.ReadLine() can return null
+
+Console.ReadLine(0 returns string?, because it can return null if the input stream ends.
+You're trying to store it in a non-nullable string, whtich triggers warning.
+
+HOW TO FIX
+
+1. Declare the variable as nullable (preferred if null is a valid state):
+string? input = Console.ReadLine();
+2. Use the null-forgiving operator ! if you know it won't be null:
+string input = Console.ReadLine()!:
+3. Provide a defalut value to avoid null:
+string input = Console.ReadLine() ?? "";
+
