@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Times_Table", "Times_Table\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fizzbuzz", "fizzbuzz\fizzbuzz.csproj", "{BD58A02A-DDAF-4CCF-A2A7-70F7886BF3A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reverse", "reverse\reverse.csproj", "{CD81838B-2A3C-4431-BB5B-E3CB6C99C6D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{BD58A02A-DDAF-4CCF-A2A7-70F7886BF3A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD58A02A-DDAF-4CCF-A2A7-70F7886BF3A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD58A02A-DDAF-4CCF-A2A7-70F7886BF3A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD81838B-2A3C-4431-BB5B-E3CB6C99C6D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD81838B-2A3C-4431-BB5B-E3CB6C99C6D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD81838B-2A3C-4431-BB5B-E3CB6C99C6D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD81838B-2A3C-4431-BB5B-E3CB6C99C6D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
